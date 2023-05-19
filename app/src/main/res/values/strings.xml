@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MysteryTreasure</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="beginplay">Start</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "473385572848",
+    "project_id": "mysterytreasure-65505",
+    "storage_bucket": "mysterytreasure-65505.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473385572848:android:ee8b5d7b1cf8312a3d2535",
+        "android_client_info": {
+          "package_name": "com.kaibltdinc.melancholian"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "473385572848-dk42edhlnfv8b55usamgbl80srr7883b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC03cFPjm5flq3m6-m7pMQYZg5gHkySVBM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "473385572848-dk42edhlnfv8b55usamgbl80srr7883b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

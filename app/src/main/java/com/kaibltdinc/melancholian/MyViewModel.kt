@@ -59,7 +59,7 @@ class MyViewModel(private val context: Context, private val saving: Saving) : Vi
             _openWebView.postValue(true)
         } else {
             val request = Request.Builder()
-                .url("https://tl.it-solution.space/?name=MysteryTreasure")
+                .url("https://tl.it-solution.space/?name=app_1")
                 .build()
             OkHttpClient().newCall(request).enqueue(object : Callback {
                 override fun onResponse(call: Call, response: Response) {

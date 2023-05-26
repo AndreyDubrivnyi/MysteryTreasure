@@ -24,8 +24,6 @@ import javax.inject.Inject
 import org.koin.android.ext.android.get
 
 class Wera : AppCompatActivity() {
-    @Inject
-    lateinit var saving: Saving
     companion object {
         private var loadm: ValueCallback<Array<Uri>>? = null
         private const val REQ = 123

@@ -7,14 +7,11 @@ class Saving(context: Context) {
     val bundle = "com.kaibltdinc.melancholian"
     val HOS = "is_HOS _$bundle"
     val ADIKI = "is_ADIKI_$bundle"
-    val CHECKER_LOCA = "is_LOCA _$bundle"
     val FINALE_L = "is_FINALE _$bundle"
     val CHECKER_LINKA = "is_LINKA _$bundle"
-    val KEY = "is_checker_KEY _$bundle"
     val AFI = "is_AFI _$bundle"
     val DOMI= "is_DOMI _$bundle"
     val OSI= "is_OSI _$bundle"
-    val LS = "l_key _$bundle"
     val CHECK = "is_checker_chek _$bundle"
 
 
@@ -34,10 +31,6 @@ class Saving(context: Context) {
     var checkerHost: Boolean
         get() = preferences.getBoolean(HOS, false)
         set(value) = preferences.edit().putBoolean(HOS, value).apply()
-
-    var checLoca: Boolean
-        get() = preferences.getBoolean(CHECKER_LOCA, false)
-        set(value) = preferences.edit().putBoolean(CHECKER_LOCA, value).apply()
 
     var lk: String
         get() = preferences.getString(CHECKER_LINKA, null) ?: ""
@@ -65,9 +58,6 @@ class Saving(context: Context) {
         set(value) = preferences.edit().putString(OSI,(value)).apply()
 
 
-    var checkCh: Boolean
-        get() = preferences.getBoolean(KEY, false)
-        set(value) = preferences.edit().putBoolean(KEY, value).apply()
 
 
 }
